@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar .container-fluid {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 60px;
+}
+
+#navbar{
+    display: flex;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+}
+
+.navbar-nav{
+    column-gap: 40px;
+}
+
+
+.carousel-item img{
+    width: 100%;
+    height: 600px;
+}
+
+/* image section flex */
+
+.flex{
+    position: relative;
+    top: 50px;
+    display: flex;
+    margin-left:180px;
+    column-gap: 40px;
+}
+
+.s-desc{
+    width: 300px;
+    margin-left: 5px;
+}
+
+.s-desc span{
+    font-size: larger;
+    color: black;
+}
+
+/* grid section*/
+
+.grid{
+    position: relative;
+    top: 100px;
+    margin-left:180px;
+    display: grid;
+    grid-template-columns: repeat(3,0fr);
+    column-gap: 20px;
+    row-gap: 30px;    
+}
+
+.More-Images h1{
+    display: flex;
+    position: relative;
+    top: 80px;
+    justify-content:center;
+    align-content: center;
+}
+
+/* cards */
+
+
+.book{
+    display: flex;
+    position: relative;
+    top: 60px;
+    justify-content:center;
+    align-content: center;
+}
+
+.cards-11{
+    position: relative;
+    top: 150px;
+    display: grid;
+    grid-template-columns: repeat(3,0fr);
+    column-gap: 40px;
+    margin-left:180px;
+}
+
+/* footer section */
+
+#footer{
+    display: flex;
+    position: relative;
+    top: 220px;
+}
+
+.float-end{
+    margin-right: 60px;
+}
